@@ -48,12 +48,7 @@ Test the login flow using the demo credentials:
 
 After tapping Login you should be navigated to the Home screen where a Logout button is visible — tap Logout to return to the login screen.
 
-## Notes & suggestions / Next steps
 
-- Replace the demo `authenticate` function with a real backend or secure local auth flow.
-- Add field-level validation and inline error messages for better UX.
-- Add keyboard IME Next/Done handling (I omitted explicit KeyboardOptions/KeyboardActions for compatibility; can be added after confirming Compose UI version).
-- Improve accessibility: add semantics, content descriptions, talkback-friendly error messages.
 - Move large Composables (`LoginScreen`, `HomeScreen`, `NavGraph`) into their own files for project clarity (optional refactor).
 - Consider adding biometric login and secure token storage for production.
 
